@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3429071259987140763}
   - component: {fileID: 9070794311800164659}
+  - component: {fileID: 8730782292085645973}
+  - component: {fileID: 479649343932696496}
   m_Layer: 0
   m_Name: flipper_0
   m_TagString: Untagged
@@ -87,3 +89,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8730782292085645973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6144661919174764486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbaa2da571e114940b4b284d0d4e3da9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftFlipper: {fileID: 0}
+  rightFlipper: {fileID: 0}
+  motorSpeed: 1000
+  motorMaxTorque: 10000
+--- !u!114 &479649343932696496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6144661919174764486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbaa2da571e114940b4b284d0d4e3da9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftFlipper: {fileID: 0}
+  rightFlipper: {fileID: 0}
+  motorSpeed: 1000
+  motorMaxTorque: 10000
